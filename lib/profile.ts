@@ -1,15 +1,15 @@
 export const profile = {
   name: "Shaik Abdul Hafeez",
-  title: "Software Engineer — AI Agents & Full‑Stack",
+  title: "Software Engineer — AI & Full‑Stack",
   location: "Hyderabad, Telangana",
   summary:
     "Software Engineer specializing in AI agents, multimodal RAG, and full‑stack development. I design intelligent systems that retrieve, reason, and act—backed by scalable APIs, robust testing, and clean UX.",
   contact: {
     email: "shaik.abdulhafeez323@gmail.com",
     phone: "+91-6281675266",
-    website: "", // e.g. "https://yourdomain.com"
-    linkedin: "", // e.g. "https://linkedin.com/in/your-handle"
-    github: "", // e.g. "https://github.com/your-handle"
+    website: "https://portfolio.shaikabdulhafeez.link/", // e.g. "https://yourdomain.com"
+    linkedin: "https://www.linkedin.com/in/shaik-abdul-hafeez-95a917220/", // e.g. "https://linkedin.com/in/your-handle"
+    github: "https://github.com/ShaikAbdulHafeez03", // e.g. "https://github.com/your-handle"
   },
   experience: [
     {
@@ -19,16 +19,16 @@ export const profile = {
       start: "June 2024",
       end: "Present",
       bullets: [
-        "Designed and implemented a multifunctional company chatbot integrated with Gmail, Google Chat, and Jira (via MCP) to automate ticketing and daily reporting.",
-        "Added intelligent agent features for page-aware guidance, in‑page data analysis, and chart generation with actionable insights.",
-        "Implemented guardrails to block toxicity, prevent prompt injection, and applied rate limiting for secure, reliable performance.",
-        "Built advanced AI agents using LangChain and OpenAI Agent SDK for site building, report generation, data modeling, and site automation.",
-        "Developed custom agents for SQL/NoSQL/document retrieval; built high‑accuracy RAG pipelines with LlamaIndex, ChromaDB, and DeepSeek.",
-        "Fine‑tuned open‑source LLMs (e.g., DeepSeek) to improve domain‑specific response accuracy; integrated multimodal RAG for Excel/PPT/PDF.",
-        "Developed scalable FastAPI backends and ML model APIs on AWS Lambda + API Gateway.",
-        "Automated testing using Java Selenium + TestNG with Spring Boot, reducing test suite time by 1+ hour and adding 100+ stable test cases.",
-        "Performed performance/load testing with K6, improving backend‑to‑frontend integration and reliability.",
-      ],
+    "Designed and implemented a multifunctional company chatbot to assist clients, developers, and professional services teams with company processes, configuration, and code-related queries. Integrated with Gmail and Google Chat, and extended Jira via MCP to automate ticket creation, updates, and daily reporting. Enhanced functionality by adding intelligent agent features: agents explain the current page context, guide user navigation, perform in-page data analysis, and generate charts from grid/tabular data with actionable insights. Implemented guardrails to block toxicity, prevent prompt injection, and added rate limiting to ensure secure, reliable, and scalable performance.",
+    "Designed and implemented advanced AI agents using LangChain and OpenAI Agent SDK; created agents for site building, report generation, data modeling, and site automation.",
+    "Data Analysis Agent Built a secure, Docker-isolated analytics system that automatically processes user uploaded csv, excel files using Pandas and Plotly, then generates professional LaTeX PDF reports. Enabled safe, automated, and scalable data analysis without manual coding or security risks..",
+    "Built and optimized high-accuracy Retrieval-Augmented Generation (RAG) pipelines, working extensively with open-source frameworks/models such as Langchain, LlamaIndex, QdrantDB and GPT-oss. Designed custom ingestion, chunking, and retrieval strategies for handling large-scale document processing.",
+    "Fine-tuned open-source LLMs like DeepSeek, Qwen to improve contextual understanding and response accuracy in domain-specific applications.",
+    "Architected and developed scalable and high-performance backend APIs using FastAPI, optimizing response times and enabling seamless integration with AI-driven applications. integrated prometheus, gafana loki, MLFlow for metrics logging and model tracing.",
+    "Developed custom AI agents capable of retrieving, processing, and reasoning over SQL databases, NoSQL stores, and document-based data, improving data accessibility and operational efficiency.",
+    "Developed and deployed scalable ML model APIs using AWS Lambda, API Gateway, and IAM, ensuring seamless integration with enterprise applications.",
+    "QAAutomation, automated testing frameworks using Java, Selenium, TestNG, and Spring Boot, improving test coverage and overall reliability. Streamlined and refactored three major test suites—reducing total execution time by over 50 percent (from 2 hours to 1 hour) and fixing more than 200 test cases to enhance stability"
+  ],
     },
     {
       role: "Full Stack Web Developer - Intern",
@@ -54,26 +54,61 @@ export const profile = {
       ],
     },
   ],
-  projects: [
-    {
-      name: "SNEKO Food Delivery Website",
-      type: "Full Stack",
-      bullets: [
-        "Responsive food delivery site using React for interactive UI.",
-        "Express + Node.js server with Firebase auth (Gmail + phone OTP) and database.",
-        "Version control in Git and wireframing in Figma.",
-      ],
-      tech: ["React", "Node.js", "Express", "Firebase", "Figma", "Git"],
-    },
-    {
-      name: "Rent Management Website",
-      type: "Full Stack",
-      bullets: [
-        "Flask‑based app for monthly rents and transaction logging.",
-        "Stored rental data to Excel for simple operations and export.",
-      ],
-      tech: ["Flask", "Python", "Excel"],
-    },
+projects: [
+  {
+    name: "SNEKO Food Delivery Website",
+    type: "Full Stack",
+    bullets: [
+      "Developed a dynamic and responsive food delivery platform with an admin dashboard for order management.",
+      "React frontend with Firebase authentication (Gmail and phone OTP) and Firebase database integration.",
+      "Node.js + Express backend ensuring secure, scalable communication between frontend and server.",
+      "Collaborated in a startup environment, focusing on performance and seamless user experience.",
+    ],
+    tech: ["React", "Node.js", "Express", "Firebase", "Figma", "Git", "Jwt"],
+  },
+  {
+    name: "TrendCaster",
+    type: "AI + Automation",
+    bullets: [
+      "Built an AI-driven system to identify trending topics in specific niches and news domains.",
+      "Automated adaptation of news into social media posts, YouTube videos, and Reels.",
+      "Integrated image generation models for creating news visuals and automated multi-platform posting.",
+      "Generated templates dynamically, combining visuals, headings, and text into social-ready content.",
+    ],
+    tech: ["Python", "LangChain", "OpenAI Agent sdk", "gemini API", "FFMPEG", "FreeSound API", "Fastapi", "Instagram API", "Twitter API"],
+  },
+  {
+    name: "Rapport Agent",
+    type: "AI Agent System",
+    bullets: [
+      "Developed a multi-agent data analysis system for CSV/Excel uploads.",
+      "Implemented specialized agents (Pay Equity, Attrition, HR) to generate insights and reports.",
+      "Built automated charting, data exploration, and interactive conversation features for business analysis.",
+      "Enabled AI-driven HR analytics via safe sandboxed execution environments.",
+    ],
+    tech: ["Python", "Pandas", "Plotly", "OpenAI Agent SDK", "LangChain", "Docker"],
+  },
+  {
+    name: "Portfolio Website",
+    type: "Full Stack (Next.js)",
+    bullets: [
+      "Designed and developed a modern personal portfolio using Next.js and Tailwind CSS.",
+      "Integrated dynamic sections for projects, experiences, and contact forms powered by Firebase backend.",
+      "Implemented responsive animations and smooth routing using Framer Motion for an interactive experience.",
+      "Optimized for SEO, Lighthouse performance, and fast loading across devices.",
+    ],
+    tech: ["Next.js", "Tailwind CSS", "Vercel"],
+  },
+   {
+    name: "Rent Management Website",
+    type: "Full Stack",
+    bullets: [
+      "Flask-based application for managing monthly rents and financial records.",
+      "Automated transaction logging and export of data to Excel for offline access.",
+      "Designed minimalistic UI for simplicity and data accessibility.",
+    ],
+    tech: ["Flask", "Python", "Excel"],
+  },
   ],
   education: [
     {
@@ -120,6 +155,11 @@ export const profile = {
       "Phidata",
       "LangChain",
       "Crew.ai",
+      "open ai agent sdk",
+      "fast api",
+      "pandas",
+      "numpy",
+      "plotly"
     ],
     tools: [
       "WordPress",
