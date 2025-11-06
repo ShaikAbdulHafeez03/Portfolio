@@ -59,7 +59,7 @@ projects: [
     name: "SNEKO Food Delivery Website",
     type: "Full Stack",
     bullets: [
-      "Developed a dynamic and responsive food delivery platform with an admin dashboard for order management.",
+      "Developed a dynamic and responsive food delivery platform with an admin dashboard for order management. https://sneko-git-main-snekos-projects.vercel.app/",
       "React frontend with Firebase authentication (Gmail and phone OTP) and Firebase database integration.",
       "Node.js + Express backend ensuring secure, scalable communication between frontend and server.",
       "Collaborated in a startup environment, focusing on performance and seamless user experience.",
